@@ -16,7 +16,7 @@ const ItemCount = ({initial = 1, stock, onAdd}) => {
     }
     return (
         
-        <article style={{display: 'flex', justifyItems: 'center'}}>
+        <article>
             <h3>{count}</h3>
             <button onClick={decrement}>-</button>
             <button onClick={() => onAdd(count)}>Agregar al carrito</button>
